@@ -1,0 +1,12 @@
+name: hollithron-advocates
+region: nyc
+services:
+  - name: web
+    dockerfile_path: Dockerfile
+    http_port: 3000
+    instance_count: 1
+    instance_size_slug: apps-s-1vcpu-0.5gb
+    github:
+      repo: Anton1086/hollithron-advocates
+      branch: main
+      deploy_on_push: true

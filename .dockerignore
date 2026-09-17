@@ -1,0 +1,9 @@
+.git
+.next
+node_modules
+design-system
+.vercel
+_tmp
+*.md
+AGENTS.md
+CLAUDE.md
